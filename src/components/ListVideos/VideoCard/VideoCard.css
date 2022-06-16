@@ -1,0 +1,37 @@
+
+.video_card_container{
+    border: 1px solid black;
+    box-shadow: 0 5px 15px black;
+    width: 40%;
+    height: 450px !important;
+    margin: 20px 40px;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+.video_card_heading{
+    margin: 20px 0;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+
+}
+.video_card{
+   width: 100%;
+   cursor: pointer;
+   
+}
+.video_card_tags{
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.video_card_tags > span{
+    margin-right: 10px;
+}
+
+ 
+  
